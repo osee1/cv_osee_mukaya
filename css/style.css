@@ -133,6 +133,18 @@ h4{
    text-decoration: none;
 }
 
+.mail{
+    text-decoration: none;
+    display: block;
+    background-color: rgb(119, 119, 204);
+    color: #ffffff;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 0.4em;
+    margin: 20px;
+}
+
 /*
     Style pour le dynamisme de la page avec javscript
 */
