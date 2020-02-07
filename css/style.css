@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.bloc{
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px solid  rgb(209, 202, 202);
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+.bloc_div{
+    display: flex;
+    max-width: 100%;
+    background: rgb(209, 202, 202);
+    height: 150px;
+    margin-top: 50px;
+    justify-content: flex-start;
+    margin-bottom: 35px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bloc_div img{
+    position: relative;
+    margin-right: 10%;
+    margin-left: 20px;
+    border-radius: 100px;
+    top: 30px;
+    left: 70px;
+}
+.bloc_div p{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+    color: blue;
+    line-height: 1.5;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    background-color: rgb(209, 202, 202);
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+}
+.content .left{
+    max-width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content .right{
+    max-width: 70%;
+    margin-right: 20px;
+}
+
+.profil,
+.contact,
+.competence_domaine,
+.competence,
+.langues{
+    border: 3px solid  rgb(209, 202, 202);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.experience,
+.formation,
+.hobbies,
+.atouts{
+    border: 3px solid  rgb(209, 202, 202);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.right .experience{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    font-size: 16px;
+}
+.formation{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    font-size: 16px;
+}
+h4{
+    color: blue;
+}
+.profil p{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+}
+
+.contact ul{
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.contact a{
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.contact strong{
+    margin-left: 20px;
+    color: rgb(192, 111, 111);
+}
+.competence ul, .langues ul, .competence_domaine ul, .hobbies ul, .atouts ul{
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.experience, .formation, .hobbies, .atouts{
+    margin-left: 20px;
+}
+
+.experience a{
+   text-decoration: none;
+}
+@media screen and (max-width: 700px){
+    .bloc_div img{
+       position: static;
+       display: block;
+    }
+}
+@media screen and (max-width: 600px){
+
+    .content{
+        width: 100%;
+        display: block;
+    }
+    .contact, 
+    .competence_domaine, 
+    .competence, 
+    .langues,
+    .exp,
+    .formation,
+    .profil{
+        display: block;
+        width: 300%;
+    }
+    .experience, .formation, .hobbies, .atouts{
+        display: block;
+        width: 130%;
+    }
+}
+@media screen and (max-width: 500px){
+    .bloc_div img{
+        position: static;
+        display: inline-block;
+        height: 100px;
+
+    }
+    .bloc_div{
+        height: 100px;
+    }
+    .bloc_div p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 345px){
+    .bloc_div{
+        height: 120px;
+    }
+}
+@media screen and (max-width: 320px){
+    .bloc_div{
+        height: 130px;
+    }
+}
+@media screen and (max-width: 320px){
+    .bloc_div{
+        height: 135px;
+    }
+}
+@media screen and (max-width: 300px){
+    .bloc_div{
+        height: 140px;
+        margin-left: 0;
+    }
+    .bloc_div p{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 290px){
+    .bloc_div{
+        height: 150px;
+        margin-left: 0;
+    }
+    .bloc_div p{
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="33px" height="34px" viewBox="0 0 33 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>github-box</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-473.000000, -2386.000000)">
+            <g id="github-box" transform="translate(473.000000, 2386.666667)">
+                <rect id="Rectangle-13-Copy-16" fill="#232323" x="0" y="0" width="33" height="33" rx="4"></rect>
+                <path d="M16,5 C9.4,5 4,10.4 4,17 C4,22.3 7.4,26.8 12.2,28.4 C12.8,28.5 13,28.1 13,27.8 C13,27.5 13,26.8 13,25.8 C9.7,26.5 9,24.2 9,24.2 C8.5,22.8 7.7,22.4 7.7,22.4 C6.5,21.7 7.7,21.7 7.7,21.7 C8.9,21.8 9.5,22.9 9.5,22.9 C10.6,24.7 12.3,24.2 13,23.9 C13.1,23.1 13.4,22.6 13.8,22.3 C11.1,22 8.3,21 8.3,16.4 C8.3,15.1 8.8,14 9.5,13.2 C9.5,12.8 9,11.6 9.7,10 C9.7,10 10.7,9.7 13,11.2 C14,10.9 15,10.8 16,10.8 C17,10.8 18,10.9 19,11.2 C21.3,9.6 22.3,10 22.3,10 C23,11.7 22.5,12.9 22.4,13.2 C23.2,14 23.6,15.1 23.6,16.4 C23.6,21 20.8,22 18.1,22.3 C18.5,22.7 18.9,23.4 18.9,24.5 C18.9,26.1 18.9,27.4 18.9,27.8 C18.9,28.1 19.1,28.5 19.7,28.4 C24.5,26.8 27.9,22.3 27.9,17 C28,10.4 22.6,5 16,5 Z" id="Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
