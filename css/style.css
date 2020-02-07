@@ -133,6 +133,27 @@ h4{
 .experience a{
    text-decoration: none;
 }
+
+/*
+    Style pour le dynamisme de la page avec javscript
+*/
+.ombre{
+    box-shadow: 0 10px 50px rgb(192, 111, 111);
+    margin: 0;
+    padding: 0;
+}
+
+.bloc_dive, .photo_contact, .titre{
+    box-shadow: 0 10px 50px rgb(192, 111, 111);
+}
+
+.color{
+    color: rgb(192, 111, 111);
+}
+
+/* 
+    Media query
+*/
 @media screen and (max-width: 700px){
     .bloc_div img{
        position: static;
