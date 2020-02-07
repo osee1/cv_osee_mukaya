@@ -39,8 +39,10 @@ for(let index = 0; index < h2.length; index++){
 /**
  * Ajout et retrait de la couleur blue automatiquement sur tout les titres
  */
+/** 
 h2.forEach((titre)=>{
     setInterval(()=>{
         titre.classList.toggle('color');
     },1000);
 });
+*/
